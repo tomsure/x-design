@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("vue"),t={__name:"main",setup(n){return(o,r)=>(e.openBlock(),e.createElementBlock("button",null,"按钮01"))}};exports.Button=t;
