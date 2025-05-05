@@ -1,7 +1,7 @@
 {
-"name":"@x-design/cli",
-"description": "a cli with typescript",
-    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/cli",
+"name":"@x-design/configs",
+"description": "confils with typescript",
+    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/configs",
     "license": "MIT",
     "contributors": [
         {

@@ -8,6 +8,13 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
+  "contributors": [
+        {
+            "name": "tang xu",
+            "githubUsername": "tomsure",
+            "url": "https://github.com/tomsure"
+        }
+    ],
   "dependencies": {
     "vue": "^3.5.13",
     "@x-design/ui":"workspace:*",

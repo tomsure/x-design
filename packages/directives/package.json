@@ -1,7 +1,7 @@
 {
-"name":"@x-design/cli",
-"description": "a cli with typescript",
-    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/cli",
+"name":"@x-design/directives",
+"description": "directives with typescript in x-design",
+    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/directives",
     "license": "MIT",
     "contributors": [
         {

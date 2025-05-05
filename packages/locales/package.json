@@ -1,7 +1,7 @@
 {
-"name":"@x-design/cli",
-"description": "a cli with typescript",
-    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/cli",
+"name":"@x-design/locales",
+"description": "locales with typescript in x-design",
+    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/locales",
     "license": "MIT",
     "contributors": [
         {
@@ -10,4 +10,5 @@
             "url": "https://github.com/tomsure"
         }
     ]
+
 }

@@ -4,6 +4,16 @@
   "version": "0.0.1",
   "private":true,
   "module1": "index.ts",
+  "description": "x-design with vue",
+    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/x-design",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Tang xu",
+            "githubUsername": "tomsure",
+            "url": "https://github.com/tomsure"
+        }
+    ],
   "scripts": {
       "dev":"",
       "build":"vite build"

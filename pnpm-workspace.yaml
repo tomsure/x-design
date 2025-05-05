@@ -1,4 +1,7 @@
 packages:
-  - "packages/*"
-  - "apps/frontend/app1/*"
-  
+  - packages/*
+  - apps/frontend/app1/*
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - vue-demi

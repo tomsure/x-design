@@ -1,12 +1,14 @@
 <script setup lang="ts">
 // import {Button} from '@x-design/ui'
-import {Button,Input} from 'x-design'
+// import {Button,Input} from 'x-design'
+// import { ElButton } from 'element-plus'
 </script>
 
 <template>
   <div>
     <Button></Button>
     <Input></Input>
+    <el-button type="primary">主要按钮</el-button>
   </div>
 </template>
 

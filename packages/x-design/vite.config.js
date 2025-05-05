@@ -33,9 +33,11 @@ export default defineConfig({
             entry: {
                 'x-design': resolve(__dirname, 'index.ts'),
                 ui: resolve(__dirname, 'ui.ts'),
-                // directives: resolve(__dirname, 'directives.ts'),
-                // hooks: resolve(__dirname, 'hooks.ts'),
+                directives: resolve(__dirname, 'directives.ts'),
+                hooks: resolve(__dirname, 'hooks.ts'),
                 locales: resolve(__dirname, 'locales.ts'),
+                configs:resolve(__dirname,'configs.ts'),
+                tools:resolve(__dirname,'tools.ts')
                 // tokens: resolve(__dirname, 'tokens.ts'),
             },
             formats: ['es', 'cjs'],

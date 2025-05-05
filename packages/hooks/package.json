@@ -1,7 +1,7 @@
 {
-"name":"@x-design/cli",
-"description": "a cli with typescript",
-    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/cli",
+"name":"@x-design/hooks",
+"description": "a hooks with typescript in x-design",
+    "homepage": "https://github.com/tomsure/x-design/tree/master/packages/hooks",
     "license": "MIT",
     "contributors": [
         {
