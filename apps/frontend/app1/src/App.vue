@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import {fnConfig} from '@x-design/configs'
-
-
+import HelloWorld from './components/HelloWorld.vue';
+import Table from './components/table.vue'
 onMounted(()=>{
    fnConfig()
 })
@@ -10,9 +10,11 @@ onMounted(()=>{
 
 <template>
   <div>
-    <Button></Button>
+    <!-- <Button></Button>
     <Input></Input>
-    <el-button type="primary">主要按钮</el-button>
+    <HelloWorld></HelloWorld>
+    <el-button type="primary">主要按钮</el-button> -->
+    <Table></Table>
   </div>
 </template>
 
@@ -28,5 +30,8 @@ onMounted(()=>{
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+#app {
+  width: 100%;
 }
 </style>

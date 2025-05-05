@@ -2,7 +2,7 @@ import VXETable from "vxe-table";
 import XEUtils from "xe-utils";
 import Button from "./src/components/Button";
 import Input from "./src/components/Input";
-
+import XTable from "./src/components/Table";
 import type { Component, App } from "vue";
 
 const components = [
@@ -13,6 +13,10 @@ const components = [
   {
     name: "Input",
     component: Input,
+  },
+  {
+    name: "x-table",
+    component: XTable,
   },
 ];
 const installer = (app: App, globalCoonfig: any) => {
@@ -25,5 +29,5 @@ const installer = (app: App, globalCoonfig: any) => {
   });
 };
 export default installer;
-export { VXETable, XEUtils, Button, Input };
+export { VXETable, XEUtils, Button, Input, XTable };
 export * from "./src/components/Button";
