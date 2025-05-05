@@ -1,5 +1,5 @@
-import xDesign from "../ui";
-
+import UI from "../ui";
+import configs from "./configs";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
@@ -11,7 +11,8 @@ import packageInfo from "./package.json";
 
 const install = (app: App, globalConfig: any) => {
   app.use(ElementPlus, globalConfig);
-  app.use(xDesign, globalConfig);
+  app.use(UI, globalConfig);
+  // app.use(configs, globalConfig);
 };
 const installer = {
   version: packageInfo.version,

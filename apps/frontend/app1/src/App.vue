@@ -1,7 +1,11 @@
 <script setup lang="ts">
-// import {Button} from '@x-design/ui'
-// import {Button,Input} from 'x-design'
-// import { ElButton } from 'element-plus'
+import { onMounted } from 'vue';
+import {fnConfig} from '@x-design/configs'
+
+
+onMounted(()=>{
+   fnConfig()
+})
 </script>
 
 <template>

@@ -24,6 +24,9 @@ importers:
       '@vue/tsconfig':
         specifier: 0.7.0
         version: 0.7.0(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
+      '@x-design/configs':
+        specifier: workspace:*
+        version: link:packages/configs
       '@x-design/ui':
         specifier: workspace:*
         version: link:packages/ui
@@ -69,6 +72,27 @@ importers:
 
   packages/cli: {}
 
+  packages/configs:
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^5.2.3
+        version: 5.2.3(vite@5.4.19(@types/node@22.15.3)(sass@1.85.0)(terser@5.39.0))(vue@3.5.13(typescript@5.8.3))
+      typescript:
+        specifier: 5.8.3
+        version: 5.8.3
+      vite:
+        specifier: '5'
+        version: 5.4.19(@types/node@22.15.3)(sass@1.85.0)(terser@5.39.0)
+      vite-plugin-dts:
+        specifier: ^4.5.3
+        version: 4.5.3(@types/node@22.15.3)(rollup@4.40.1)(typescript@5.8.3)(vite@5.4.19(@types/node@22.15.3)(sass@1.85.0)(terser@5.39.0))
+
+  packages/directives: {}
+
+  packages/hooks: {}
+
+  packages/locales: {}
+
   packages/tools: {}
 
   packages/ui:
@@ -95,6 +119,8 @@ importers:
       vite-plugin-dts:
         specifier: ^4.5.3
         version: 4.5.3(@types/node@22.15.3)(rollup@4.40.1)(typescript@5.8.3)(vite@5.4.19(@types/node@22.15.3)(sass@1.85.0)(terser@5.39.0))
+
+  packages/utils: {}
 
   packages/x-design:
     dependencies:

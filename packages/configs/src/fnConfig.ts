@@ -1,4 +1,4 @@
-const fnConfig = () => {
+export const fnConfig = () => {
   console.log("configs");
 };
 export default fnConfig;

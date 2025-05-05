@@ -1,14 +1,19 @@
 {
-"name":"x-design",
+"name":"@x-design/monorepo",
+"workspaces": [
+        "packages/*"
+    ],
 "peerDependencies": {
     "vue":"3.5.13"
 },
 "dependencies": {
     "element-plus":"2.9.9",
     "x-design":"workspace:*"
+    
 },
 "devDependencies": {
     "@x-design/ui":"workspace:*",
+    "@x-design/configs":"workspace:*",
     "@vitejs/plugin-vue": "5.2.1",
         "@vue/tsconfig": "0.7.0",
         "eslint": "9.20.1",
